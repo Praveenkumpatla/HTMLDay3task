@@ -1,0 +1,61 @@
+#head{
+    background-color: rgb(59, 59, 59);
+    height: 200px;
+    position: relative;
+    top:0px;
+    left:0px;
+    padding-top: 20px;
+}
+#pic{
+    height:180px;
+    width: 180px;
+    border:7px dotted gold;
+    border-radius: 90px;
+}
+#name{
+    position:relative;
+    top:-25px;
+    background-color: gold;
+    font-size: 60px;
+    border-radius: 5px;
+    padding:5px 20px 5px 20px;
+}
+#data{
+    width: 1200px;
+}
+#detail{
+    border-right: 1px solid;
+    width:50%;
+}
+.icon{
+    height: 50px;
+    width: 50px;
+    background-image: gold;
+    border: 8px dotted gold;
+    border-radius: 90px;
+    border-spacing: 5px;
+}
+.title{
+    opacity: 0.5;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    font-size: 50px;
+    position: relative;
+    top:-10px;
+}
+.content{
+    padding: 5px 10px 15px 5px;
+    font-size: 20px;
+    text-align: justify;
+} 
+.skill {
+    position: relative;
+    top:10px;
+    -webkit-appearance: none;
+    padding-right: 10%;
+    float: right;
+    width: 35%;
+    height: 10px;
+    background: linear-gradient(to right,gold,white);
+    outline:none
+  }
